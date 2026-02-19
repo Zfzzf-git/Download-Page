@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Webpage</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Icon Webpage</h1>
+            <p>Welcome to your awesome icon collection!</p>
+        </header>
+
+        <main>
+            <!-- Icon Grid Section -->
+            <section class="icons-section">
+                <h2>Our Icons</h2>
+                <div class="icons-grid">
+                    <div class="icon-card">
+                        <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#FF6B6B"/>
+                            <path d="M 30 50 L 50 70 L 70 50" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Download</p>
+                    </div>
+
+                    <div class="icon-card">
+                        <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#4ECDC4"/>
+                            <path d="M 35 45 L 50 60 L 65 45" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Upload</p>
+                    </div>
+
+                    <div class="icon-card">
+                        <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#45B7D1"/>
+                            <path d="M 50 30 L 50 70 M 30 50 L 70 50" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                        </svg>
+                        <p>Add</p>
+                    </div>
+
+                    <div class="icon-card">
+                        <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#96CEB4"/>
+                            <circle cx="50" cy="40" r="8" fill="white"/>
+                            <path d="M 40 55 Q 50 65 60 55" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                        <p>User</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Download Button Section -->
+            <section class="download-section">
+                <h2>Download Now!</h2>
+                <button class="download-btn" onclick="downloadFile()">
+                    <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2v10m0 0l-4-4m4 4l4-4M2 20h20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Download Package
+                </button>
+                <p id="download-status"></p>
+            </section>
+
+            <!-- Feature Cards -->
+            <section class="features-section">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast</h3>
+                        <p>Lightning-fast downloads and interactions</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Beautiful</h3>
+                        <p>Stunning icons and designs</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Works on all devices and screen sizes</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Icon Webpage. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
